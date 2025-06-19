@@ -53,15 +53,15 @@ job "keycloak" {
         KC_HOSTNAME = "localhost"
         KC_HOSTNAME_PORT = 8080
         KC_HOSTNAME_STRICT_BACKCHANNEL: "false"
-        KC_HTTP_ENABLED: "true"
-        KC_HOSTNAME_STRICT_HTTPS: "false"
-        KC_HEALTH_ENABLED: "true"
-        KEYCLOAK_ADMIN: var.admin_user
-        KEYCLOAK_ADMIN_PASSWORD: var.admin_password
-        KC_DB: keycloak
-        KC_DB_URL: jdbc:postgresql://localhost:5432/keycloak
-        KC_DB_USERNAME: var.db_user
-        KC_DB_PASSWORD: var.db_password
+        KC_HTTP_ENABLED = "true"
+        KC_HOSTNAME_STRICT_HTTPS = "false"
+        KC_HEALTH_ENABLED = "true"
+        KEYCLOAK_ADMIN = var.admin_user
+        KEYCLOAK_ADMIN_PASSWORD = var.admin_password
+        KC_DB = keycloak
+        KC_DB_URL = jdbc:postgresql://localhost:5432/keycloak
+        KC_DB_USERNAME = var.db_user
+        KC_DB_PASSWORD = var.db_password
       }
 
       resources {
