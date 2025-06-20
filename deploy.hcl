@@ -58,7 +58,7 @@ job "keycloak" {
         KC_HEALTH_ENABLED = "true"
         KEYCLOAK_ADMIN = var.admin_user
         KEYCLOAK_ADMIN_PASSWORD = var.admin_password
-        KC_DB = "keycloak"
+        KC_DB = "postgres"
         KC_DB_URL = "jdbc:postgresql://localhost:5432/keycloak"
         KC_DB_USERNAME = var.db_user
         KC_DB_PASSWORD = var.db_password
