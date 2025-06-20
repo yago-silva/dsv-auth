@@ -65,7 +65,7 @@ job "keycloak" {
         KC_DB_USERNAME = var.db_user
         KC_DB_PASSWORD = var.db_password 
         KC_LOG_LEVEL= "info"
-        KC_PROXY= "passthrough"
+        KC_PROXY= "edge"
         KC_PROXY_HEADERS= "xforwarded"
         KC_HOSTNAME_DEBUG= "true"
       }
