@@ -25,7 +25,7 @@ variable "memory" {
 job "keycloak" {
   datacenters = ["dc1"]
   type = "service"
-  group "keycloak" {
+  group "postgres" {
     count = 1
 
     network {
