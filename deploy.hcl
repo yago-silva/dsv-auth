@@ -62,7 +62,7 @@ job "keycloak" {
         KEYCLOAK_ADMIN = var.admin_user
         KEYCLOAK_ADMIN_PASSWORD = var.admin_password
         KC_DB = "postgres"
-        KC_DB_URL = "jdbc:postgresql://207.180.240.28:5432/keycloak"
+        KC_DB_URL = "jdbc:postgresql://postgres:5432/keycloak"
         KC_DB_USERNAME = var.db_user
         KC_DB_PASSWORD = var.db_password 
         KC_LOG_LEVEL= "info"
