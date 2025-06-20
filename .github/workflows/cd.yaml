@@ -33,5 +33,5 @@ jobs:
         curl https://releases.hashicorp.com/nomad/1.4.3/nomad_1.4.3_linux_amd64.zip -o nomad.zip && \
         unzip nomad.zip && \
         chmod +x nomad && \
-        ./nomad run --var="admin_password=${KEYCLOAK_ADMIN_PASSWORD}" --var="admin_user=${KEYCLOAK_ADMIN}" --var="db_password=${POSTGRES_PASSWORD}" --var="db_user=${POSTGRES_USER}" --var="cpu=200" --var="memory=1000" deploy.hcl
+        ./nomad run --var="admin_password=${KEYCLOAK_ADMIN_PASSWORD}" --var="admin_user=${KEYCLOAK_ADMIN}" --var="db_password=${POSTGRES_PASSWORD}" --var="db_user=${POSTGRES_USER}" --var="cpu=2000" --var="memory=8000" deploy.hcl
                     
