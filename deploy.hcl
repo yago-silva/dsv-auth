@@ -31,7 +31,8 @@ job "keycloak" {
     network {
       port "keycloak_port" {
         to = 8080
-        static = 8080 
+        static = 8080
+        host_network = "default"
       }
     }
 
