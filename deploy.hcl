@@ -54,6 +54,7 @@ job "keycloak" {
         KC_HOSTNAME_PORT = 8080
         KC_HOSTNAME_STRICT_BACKCHANNEL= "false"
         KC_HTTP_ENABLED = "true"
+        KC_HTTPS_ENABLED = "false"
         KC_HOSTNAME_STRICT= "false"
         KC_HOSTNAME_STRICT_HTTPS = "false"
         KC_HEALTH_ENABLED = "true"
