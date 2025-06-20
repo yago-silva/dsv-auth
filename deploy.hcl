@@ -46,7 +46,7 @@ job "keycloak" {
       config {
         image = "quay.io/keycloak/keycloak:23.0.6"
         ports = ["keycloak_port"]
-        args  = ["start"]
+        args  = ["start-dev"]
       }
 
       env {
