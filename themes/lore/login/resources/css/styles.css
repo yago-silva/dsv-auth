@@ -61,6 +61,6 @@ div.kc-logo-text{
    color: #5F5F5F; 
 }
 
-.kc-header{
+#kc-header{
     visibility: hidden;
 }
