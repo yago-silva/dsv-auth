@@ -60,3 +60,7 @@ div.kc-logo-text{
 .pf-c-form__label-text{
    color: #5F5F5F; 
 }
+
+.kc-header{
+    visibility: hidden;
+}
