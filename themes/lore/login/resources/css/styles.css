@@ -1,0 +1,62 @@
+body, .login-pf-page, .card-pf {
+    background: #F9F4EF;    
+}
+
+.login-pf-page{
+    height: 100vh;
+}
+
+.pf-c-form-control{
+    border-radius: 12px;
+    background: #F9F4EF; 
+    border: 1px solid #5F555F;
+    padding-left: 20px;
+}
+
+.pf-c-form-control:hover{
+    border: 1px solid #5F555F;
+}
+
+.pf-c-form-control[aria-invalid=true]{
+    background-image: none;
+}
+
+.pf-c-input-group > .pf-c-form-control{
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.pf-c-button.pf-m-control{
+    background-color: #F9F4EF
+}
+
+.pf-c-button.pf-m-control:after{
+    border: 1px solid #5F5F5F;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 36px;
+}
+
+#kc-login, .pf-c-button.pf-m-primary {
+    background: #6B4B6B;
+    border-radius: 12px;
+}
+
+div.kc-logo-text{
+    background-image: none;
+}
+
+#kc-page-title {
+    font-size: 24px;
+    color: #2D2D2D;
+    font-weight: bold;
+}
+
+.pf-c-form__label-text{
+   color: #5F5F5F; 
+}
