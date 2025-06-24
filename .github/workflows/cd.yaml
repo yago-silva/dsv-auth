@@ -23,7 +23,7 @@ jobs:
         password: ${{ secrets.SSH_PASSWORD }}
         port: 22
         source: themes/*
-        target: /root/volumes/keycloak/themes
+        target: /root/volumes/keycloak
     
     - name: APP_VERSION
       run: echo "APP_VERSION=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
