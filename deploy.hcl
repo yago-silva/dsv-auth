@@ -47,6 +47,9 @@ job "keycloak" {
         image = "quay.io/keycloak/keycloak:23.0.6"
         ports = ["keycloak_port"]
         args  = ["start-dev"]
+        volumes = [
+          "/root/volumes/keycloak/themes:/opt/keycloak/themes"
+        ]
       }
 
       env {
