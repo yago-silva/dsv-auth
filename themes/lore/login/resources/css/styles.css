@@ -1,3 +1,9 @@
+html, body {
+    overflow: hidden;
+    margin: 0;
+    height: 100%;
+}
+
 body, .login-pf-page, .card-pf, .login-pf {
     background: #F9F4EF;    
 }
